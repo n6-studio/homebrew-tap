@@ -1,12 +1,13 @@
 # N6 Studio Homebrew tap
 
 ```sh
-brew tap n6-studio/tap
-brew install --cask yeobun
+brew install --cask n6-studio/tap/yeobun
 ```
 
-Or in one step:
+Homebrew 6 requires third-party taps to be trusted. Installing with the fully qualified name above trusts only this cask. To trust the whole tap:
 
 ```sh
-brew install --cask n6-studio/tap/yeobun
+brew trust --tap n6-studio/tap
+brew tap n6-studio/tap
+brew install --cask yeobun
 ```

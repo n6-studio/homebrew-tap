@@ -12,7 +12,7 @@ cask "yeobun" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Yeobun.app"
   binary "#{appdir}/Yeobun.app/Contents/MacOS/yeobun-cli", target: "yeobun"
