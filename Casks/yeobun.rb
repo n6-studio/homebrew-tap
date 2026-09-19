@@ -1,6 +1,6 @@
 cask "yeobun" do
-  version "0.1.0"
-  sha256 "da22bfd84698ed1f4864811fb9b63870cfc2cbc357a942f0aad3ad4dd0f53f76"
+  version "0.3.0"
+  sha256 "e94d0aa998161ec70a00d1e66c74ba27603eb23d0071ea51999bb24d92cdaec2"
 
   url "https://github.com/n6-studio/yeobun/releases/download/v#{version}/Yeobun-#{version}.dmg"
   name "Yeobun"
